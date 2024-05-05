@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>users</title>
+</head>
+<body>
+  <h1>Пользователь</h1>
+<ul>
+  {# Используем цикл Jinja2 для перебора товаорoв #}
+  {% for pole in users %}
+    <li>{{user.login}} - {{user.password}} руб.</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
